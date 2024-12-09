@@ -1,0 +1,31 @@
+<ng-container *ngIf="this.componentData">
+    <ng-container *ngIf="this.componentType == 'movie'">
+        <a class="thumbnail-container">
+            <div class="img-hover-action ">
+                <img [src]="this.componentData['imageUrl']" loading="lazy" style="height:100%; width: 100%;">
+                <div class="hover-img h-100">
+                    <span class="img-hover-icon">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+            <p class="mt-1 mb-lg-4 mb-3 thumbnail-name text-small text-left">{{this.componentData['name']}}</p>
+        </a><!-- img-hover-action -->
+    </ng-container>
+    <ng-container *ngIf="this.componentType == 'series'">
+        <a class="thumbnail-container">
+            <div class="img-hover-action ">
+                <img [src]="this.componentData['imageUrl']" loading="lazy" style="height:100%; width: 100%; border-radius: 10px;">
+                <div class="hover-img h-100">
+                    <span class="img-hover-icon">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+            <p class="mt-1 mb-lg-4 mb-3 thumbnail-name text-small text-left">{{this.componentData['name']}}</p>
+        </a><!-- img-hover-action -->
+    </ng-container>
+    <ng-container *ngIf="this.componentType == 'genre'">
+        Genre
+    </ng-container>
+</ng-container>

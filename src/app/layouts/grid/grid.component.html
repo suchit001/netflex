@@ -1,0 +1,8 @@
+<div class="row px-2 py-2">
+    <ng-container *ngFor="let componentItem of this.component['data']">
+        <div [ngClass]="'col-md-' + 12/this.component['meta']['items']">
+            <app-component-item [componentType]="this.component['asset-type']" [componentData]="componentItem">
+            </app-component-item>
+        </div>
+    </ng-container>
+</div>

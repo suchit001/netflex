@@ -11,7 +11,11 @@ export class FeedComponent {
       "asset-type": 'banner-image',
       "width": 'full',
       "order": 1,
-      "layout": 'hero-banner',
+      "layout": 'banner',
+      "data": {
+        "imageUrl": "https://img.freepik.com/free-vector/online-cinema-banner-with-open-clapper-board-film-strip_1419-2242.jpg",
+        // "ctaLink": ""
+      }
     },
     {
       'asset-type': 'movie',
@@ -19,7 +23,31 @@ export class FeedComponent {
       "layout": 'grid',
       // "mobileLayout": "Grid",
       "order": 2,
-      "data": [],
+      "data": [{
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": "1"
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": "2"
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }],
       "title": 'Recent release',
       "meta": {
         "items": 3,
@@ -32,7 +60,31 @@ export class FeedComponent {
       "layout": 'grid',
       // "mobileLayout": "Grid",
       "order": 3,
-      "data": [],
+      "data": [{
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": "1"
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": "2"
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }],
       "title": 'Popular Series',
       "meta": {
         "items": 3,
@@ -46,6 +98,31 @@ export class FeedComponent {
       // "mobileLayout": "Rail",
       "order": 4,
       "title": 'Top picks for you',
+      "data": [{
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": "1"
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": "2"
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }, {
+        "name": "Avengers",
+        "imageUrl": "https://cdnb.artstation.com/p/assets/images/images/051/181/161/large/brendon-isaiah-bengtson-spiderman-iconic-hightogame-thumbnail.jpg?1656635653",
+        "id": ""
+      }],
     },
   ];
 }

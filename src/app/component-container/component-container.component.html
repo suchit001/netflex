@@ -1,1 +1,17 @@
-<p>component-container works!</p>
+<ng-container *ngIf="this.component">
+    <div *ngIf="this.component['layout']=='grid'">
+        <app-grid [component]="this.component">
+
+        </app-grid>
+    </div>
+    <div *ngIf="this.component['layout']=='rail'">
+        <app-rail [component]="this.component">
+
+        </app-rail>
+    </div>
+    <div *ngIf="this.component['layout']=='banner'">
+        <app-banner [component]="this.component">
+
+        </app-banner>
+    </div>
+</ng-container>
