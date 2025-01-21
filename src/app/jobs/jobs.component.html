@@ -1,0 +1,30 @@
+<ng-container *ngIf="this.jobs.length > 0;else noJobs">
+    <ng-container *ngFor="let job of this.jobs; index as i">
+        <div class="card">
+            <div class="card-header">
+              {{job['company'] | titlecase}}
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{job['jobTitle']}}</h5>
+              <p class="card-text">Posting Fetched at: {{ job['createdAt'] * 1000 | date}}</p>
+              <p class="card-text">Posting created at: </p>
+              <a [href]="job['jobUrl']" target="_blank" class="btn btn-dark">Apply</a>
+              <button (click)="this.readJob(job['jobId'], i)" class="btn btn-light ms-3">Read</button> 
+            </div>
+          </div>
+    </ng-container>
+    <ng-container *ngIf="!this.noMoreResults;else noMoreResults">
+      <div class="show-more">
+          <button class="btn btn-outline-dark" (click)="this.showMore()">Show More</button>
+      </div>
+    </ng-container>
+    <ng-template #noMoreResults>
+      <div class="show-more">
+        <h2>No more results</h2>
+      </div>
+    </ng-template>
+</ng-container>
+
+<ng-template #noJobs>
+    <h1>No Jobs found</h1>
+</ng-template>

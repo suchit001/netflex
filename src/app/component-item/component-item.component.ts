@@ -13,6 +13,6 @@ export class ComponentItemComponent implements OnInit {
   public componentData = null;
 
   ngOnInit(): void {
-    console.log('componenet Data is', this.componentData)
+    
   }
 }

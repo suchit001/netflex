@@ -2,7 +2,7 @@
     <ng-container *ngIf="this.componentType == 'movie'">
         <a class="thumbnail-container">
             <div class="img-hover-action ">
-                <img [src]="this.componentData['imageUrl']" loading="lazy" style="height:100%; width: 100%;">
+                <img [src]="this.componentData['imageUrl']" loading="lazy" style="height:100%; width: 100%; padding: 8px;">
                 <div class="hover-img h-100">
                     <span class="img-hover-icon">
                         <i class="fa fa-play" aria-hidden="true"></i>
@@ -15,7 +15,7 @@
     <ng-container *ngIf="this.componentType == 'series'">
         <a class="thumbnail-container">
             <div class="img-hover-action ">
-                <img [src]="this.componentData['imageUrl']" loading="lazy" style="height:100%; width: 100%; border-radius: 10px;">
+                <img [src]="this.componentData['imageUrl']" loading="lazy" style="height:100%; width: 100%; border-radius: 30px;padding: 8px;">
                 <div class="hover-img h-100">
                     <span class="img-hover-icon">
                         <i class="fa fa-play" aria-hidden="true"></i>

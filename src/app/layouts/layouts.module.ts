@@ -4,6 +4,7 @@ import { GridComponent } from './grid/grid.component';
 import { RailComponent } from './rail/rail.component';
 import { BannerComponent } from './banner/banner.component';
 import { ComponentItemComponent } from '../component-item/component-item.component';
+import { CarouselComponent, CarouselModule } from 'ngx-owl-carousel-o';
 
 
 
@@ -16,6 +17,7 @@ import { ComponentItemComponent } from '../component-item/component-item.compone
   ],
   imports: [
     CommonModule,
+    CarouselModule
   ],
   exports: [
     GridComponent,

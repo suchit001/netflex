@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { FeedService } from '../services/feed.service';
 
 @Component({
-  selector: 'app-feed',
-  templateUrl: './feed.component.html',
-  styleUrl: './feed.component.scss',
+  selector: 'app-settings',
+  templateUrl: './settings.component.html',
+  styleUrl: './settings.component.scss'
 })
-export class FeedComponent implements OnInit{
+export class SettingsComponent implements OnInit{
   constructor(
     private feedService: FeedService
   ){}
-  public feedData: any[] = [];
 
+  public feedData: Object[] = [];
   ngOnInit(): void {
     this.feedData = this.feedService.feedData;
   }
